@@ -1,0 +1,43 @@
+# Ignore node_modules in subfolders (e.g. test-app/frontend, backend)
+**/node_modules/
+**/dist/
+**/.vite/
+**/.output/
+**/.cache/
+**/build/
+
+# Lock files (ignore all unless explicitly needed)
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Environment files
+**/.env
+**/.env.*
+
+# Logs
+**/*.log
+
+# Test results (e.g. Cypress)
+**/coverage/
+**/cypress/videos/
+**/cypress/screenshots/
+
+# System & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
+
+# Archives
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Misc
+*.local
+*.test.*
